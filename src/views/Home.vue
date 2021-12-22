@@ -24,7 +24,6 @@
         </label>
       </div>
 
-      <div class="list-div">
         <ul class="list">
           <li
             v-for="item in displayedData"
@@ -46,7 +45,6 @@
             </div> -->
           </li>
         </ul>
-      </div>
     </div>
   </div>
 </template>
