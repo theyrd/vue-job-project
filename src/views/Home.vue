@@ -97,10 +97,6 @@ export default {
     itemClickHandler(item) {
       this.$router.push({ path: `/about`, query: { id: item.id } });
     },
-    // getCount(){
-    //   this.count++;
-    //   console.log(this.count);
-    // }
   },
 };
 </script>
