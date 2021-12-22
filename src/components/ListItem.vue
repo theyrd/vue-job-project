@@ -3,7 +3,7 @@
     <div class="item-title"><b>{{ item.title }} - Price: {{ item.price }}</b></div>
 
     <div class="image-container">
-      <img :src="item.images?.[this.curImage]?.url" class="image" />
+      <img :src="item.images?.[this.curImage]?.url" alt="Missing picture" class="image" />
       <div>
         <button v-on:click="handleBackward" :disabled="this.curImage === 0">
           &lt;
