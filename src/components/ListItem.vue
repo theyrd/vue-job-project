@@ -21,7 +21,6 @@
 
 <script>
 export default {
-  components: { Button },
   name: "ListItem",
   props: {
     item: {},
