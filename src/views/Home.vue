@@ -144,9 +144,24 @@ export default {
 
 .list {
   list-style: none;
-
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 1150px) {
+  .list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
 }
 
 .item {
