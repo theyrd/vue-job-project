@@ -35,7 +35,7 @@
           v-model="phone_number"
           name="phone-number"
           id="phone-number"
-          placeholder="Enter your number"
+          placeholder="Enter your phone number"
           style="width: 20vw"
           required
         />
