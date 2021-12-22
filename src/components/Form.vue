@@ -61,7 +61,7 @@ export default {
 }
 
 .btn {
-  width: 200px;
+  width: 15vw;
   background-color: yellowgreen;
 }
 
