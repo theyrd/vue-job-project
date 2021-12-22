@@ -3,7 +3,7 @@
     <form
       action="https://webhook.site/6352ff2a-f473-455f-ad44-d6c6f83d8422"
       class="add-form"
-      method="get"
+      method="post"
     >
       <div class="form-control">
         <input
