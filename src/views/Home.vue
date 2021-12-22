@@ -32,17 +32,6 @@
             v-on:click="itemClickHandler(item)"
           >
             <ListItem v-bind:item="item" />
-            <!-- <div>
-              <div class="item-title">
-                {{ item.title }} - Price: {{ item.price }}
-              </div>
-
-            <ul class="imagesContainer">
-              <li class="image-container" v-for="image in item.images" :key="image.id">
-                <img :src="image.url" class="image"/>
-              </li>
-            </ul>
-            </div> -->
           </li>
         </ul>
     </div>
