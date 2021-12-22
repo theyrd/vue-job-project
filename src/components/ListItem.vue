@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="item-title">{{ item.title }} - Price: {{ item.price }}</div>
+    <div class="item-title"><b>{{ item.title }} - Price: {{ item.price }}</b></div>
 
     <div class="image-container">
       <img :src="item.images?.[this.curImage]?.url" class="image" />
